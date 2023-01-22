@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://dinesh-8i9r.onrender.com/', {
+    const response = await fetch('https://dinesh-8i9r.onrender.com /', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
